@@ -1,0 +1,314 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-image:url(kodama.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 90%;
+    margin: .5rem auto;
+    border: inset 1px black;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: wheat;
+    color: #426d9e;
+  }
+  
+  .topnav a.active {
+    background-color: #426d9e;
+    color: white;
+  }
+
+  .topnav i{
+    color: #426d9e;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  h1 {
+    border: 1px solid wheat;
+    padding: .3rem;
+    text-align: center;
+    color: wheat;
+    background: linear-gradient(to right, #243B55, #1e2e4b);
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem auto 1rem auto;
+    width: 25%;
+    letter-spacing: 5px;
+  }
+
+.wrapper {
+    background-color: transparent;
+    margin: 0 auto;
+    width: 100%;
+}
+
+fieldset{
+    width: 70%;
+    margin: 0 auto;
+    background: transparent;
+    border: 3px ridge wheat;
+}
+
+/* Flexbox Navigation setup */
+main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.topnav {
+    background-color:#252C3F;
+    color: #F0EBDF;
+}
+.topnav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.topnav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #F0EBDF;
+    line-height: 1.8rem;
+    padding: .5rem .8rem;
+}
+.topnav a:hover {
+    color: #6D909C;
+    background-color: #F0EBDF 
+}
+
+audio{
+    margin: .5rem auto 0 auto;
+    border: 1px groove wheat;
+    padding: .3rem;
+    border-radius: 50px;
+  }
+
+.pagefooter {
+    background: linear-gradient(to right, #243B55, #1e2e4b);
+    color: #F0EBDF;
+    text-align: center;
+    padding: .5rem;
+    border: 1px groove wheat;
+    margin-right: .8rem;
+    margin-left: .8rem;
+    margin-bottom: .8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.pagefooter img{
+    border: 1px groove wheat;
+    float: right;
+    clear: both;
+    margin: .5rem 1rem .5rem 3rem;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .1rem;
+    font-style: italic;
+    float: left;
+    clear: both;
+    padding: 0.5rem;
+    color: wheat;
+    margin: .5rem 3rem .5rem 1rem;
+    line-height: 1.5rem;
+    padding-right: 4rem;
+    border-right: 2px solid wheat; 
+}
+.copyright a{
+    color: #426d9e;
+}
+.copyright a:hover{
+    color: skyblue
+}
+
+.copyright a:visited{
+    color: skyblue;
+}
+.copyright a:visited:hover{
+    color: #426d9e;
+}
+
+.disclaimer {
+    background: linear-gradient(to right, #243B55, #1e2e4b);
+    font-size: 1rem;
+    margin: 1rem auto ;
+    width: 40%;
+    padding: 0.5rem;
+    border: 1px groove wheat;
+    color: wheat;
+}
+
+/* About Me Styles */
+.about-content {
+    margin: .8rem;
+}
+.portrait {
+    border-radius: 40px;
+    width: 14rem;
+    float: left;
+    border: 1px groove wheat;
+    margin: .8rem;
+}
+ section h2 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    font-size: 1.8rem;
+    color: wheat;
+    margin-bottom: 0;
+}
+ section p {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5rem;
+    color: skyblue;
+    padding: 0 0.5rem;
+}
+ blockquote {
+    font-family: 'Oswald', sans-serif;
+}
+
+.about {
+    display: flex;
+    flex-flow: row nowrap;
+}
+ section {
+    flex-basis: 80%;
+    background: linear-gradient(to right, #243B55, #1b2841);
+    border: 1px groove wheat;
+
+}
+
+.eating{
+    border-radius: 40px;
+    width: 14rem;
+    float: right;
+    border: 1px groove wheat;
+    margin: .8rem;
+   clear: both;
+}
+
+ aside {
+    flex-basis: 20%;
+    margin-top: .8rem;
+    margin-right: .8rem;
+    margin-bottom: .8rem;
+    background: linear-gradient(to right, #243B55, #1b2841);
+    color: skyblue;
+    border:  1px groove wheat;
+    font-family: 'Rubik', sans-serif;
+}
+
+ aside h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: wheat;
+    text-shadow: 1px 1px #243B55;
+    letter-spacing: .15rem;   
+}
+ .favorite,
+ .resources {
+    margin: 0 1rem;
+}
+.about ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+.fas, .fab {
+    padding-right: .5rem;
+}
+.favorite li {
+    padding: .7rem 0;
+}
+.links a {
+    display: block;
+    padding: .7rem 0;
+    font-family: 'Rubik', sans-serif;
+}
+.links a:link {
+    text-decoration: none;
+    color:wheat;
+    font-weight: bold;
+}
+ .links a:visited {
+    color: skyblue;
+}
+ .links a:hover {
+    color:#426d9e;
+}
+ aside {
+    display: flex;
+    flex-flow: column nowrap;
+}
+ .favorite {
+    flex-basis: 50%;
+}
+ .resources {
+    flex-basis: 50%;
+}
+
+.excerpt a:link,
+.disclaimer a:link {
+    text-decoration: none;
+    color: #1F6F8E;
+    font-size: 1rem;
+}
+.excerpt a:visited,
+.disclaimer a:visited {
+    color: wheat;
+}
+.excerpt a:hover,
+.disclaimer a:hover {
+    color:skyblue;
+}
+
+blockquote.topquote {
+    padding-bottom: .5rem;
+    border: 1px solid wheat;
+}
+blockquote.topquote p,cite {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    letter-spacing: .1rem;
+    color: beige;
+    padding-top: .5rem;
+    padding-bottom: 0rem;
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 10px;
+}
+
+section blockquote{
+    background-image:url(kodama.jpg);
+    background-position: center 40%;
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    vertical-align: center;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.863);
+    font-size: 1.4rem;
+    }

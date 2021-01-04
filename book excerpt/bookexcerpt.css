@@ -1,0 +1,286 @@
+body{
+    background: #0f0c29; 
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+font-family: 'Rubik', sans-serif;
+}
+
+audio{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 42%;
+  padding: .8rem;
+  border: 2px solid black;
+  border-radius: 50px;
+  background: whitesmoke ;
+}
+
+audio:hover{
+border: 2px solid whitesmoke;
+border-radius: 50px;
+background:transparent
+}
+
+h1 {
+    background: #EA8859;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: whitesmoke;
+    height: 60px;
+    text-align: center;
+    padding: 1.2rem 0 1.2rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    line-height: 4rem;
+    border-top: 1px solid  #0f0c29;
+    border-bottom: 1px solid  #0f0c29;
+}
+
+header p {
+margin-top: 0;
+    color: #F0EBDF;
+    background: black url(https://p1.pxfuel.com/preview/906/33/281/camera-lens-photography-equipment.jpg)
+  no-repeat;
+    background-size: contain;
+    padding-top: 2rem;
+    padding-left: 30%;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    width: 55%;
+    margin-left: 6%;
+}
+
+fieldset{
+padding: 1.5rem 0 0 0;
+background: #0f0c29;  
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+border-radius: 10px;
+border: 1px groove slategray;
+width: 95%;
+margin-left: 2.4%;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 90%;
+  margin: .5rem auto;
+  border: inset 1px black;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #DBDBDB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  background-color:#EA8859;
+  color: #DBDBDB;
+}
+
+.topnav i{
+  color: #EA8859;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.topnav a {
+  line-height: 1.8rem;
+  padding: .5rem .8rem;
+}
+
+.topnav a:hover {
+  color: #546A7B;
+  background-color: #DBDBDB
+}
+
+.box{
+    width: 65%;
+    margin: 0 auto;
+    background: #F0EBDF;
+    color: #25507E;
+}
+
+cite{
+  color: #252C3F
+}
+
+.blockquote1 p{  font-family: 'Oswald', sans-serif;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: .2rem;
+  color: #252C3F;
+}
+
+.blockquote1 cite{
+  margin-left: 2rem;
+}
+
+.imgright {border-radius: 20px;
+    box-shadow: 2px 2px slategray;
+    float: right;
+    overflow: hidden;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.first3p{ margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+ 
+}
+
+.orderli{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  color: #252C3F
+}
+
+li{
+  margin-left: 2rem;
+}
+
+.imgleft{
+  border-radius: 20px;
+  box-shadow: 2px 2px slategray;
+  float: left;
+  clear: both;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.blockquote2{
+  background: #0f0c29;  
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  padding: 1rem;
+  line-height: 1.5rem;
+  color: #F0EBDF;
+}
+
+.blockquote3{
+  background: #0f0c29;  
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  padding: 1rem;
+  line-height: 1.5rem;
+  color: #F0EBDF;
+}
+
+footer{
+  border-top: 1px solid #25507E;
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  line-height: 2rem;
+  color: #252C3F;
+  font-size: 0.8rem;
+}
+footer a{
+  color: #EA8859 ;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #252C3F;
+}
+
+.pagefooter{
+  width: 65%;
+  margin: .5rem auto;
+  background: whitesmoke; 
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border: 1px solid #67E0BF;
+  
+}
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .1rem;
+  float: left;
+  clear: both;
+  padding: 0.5rem;
+  color: #252C3F;
+  margin: .5rem 3rem .5rem 1rem;
+  line-height: 1.5rem;
+  border-right: 2px solid #EA8859; 
+  padding-right: 4rem;
+  font-size: 1.05rem;
+}
+
+.pagefooter img{
+  border: 1px groove #67E0BF;
+  float: right;
+  clear: both;
+  margin: .5rem 1rem .5rem 3rem;
+}
+
+.copyright a{
+  color: #EA8859;
+  font-weight: bold;
+}
+.copyright a:hover{
+  color: #252C3F
+}
+
+.copyright a:visited{
+  color:  #EA8859;
+  font-weight: bold;
+}
+.copyright a:visited:hover{
+  color: #252C3F;
+}
+
+.hover-border { font-family: 'rubik', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3.5rem; 
+  background: linear-gradient(to right, #272749, #302b63, #16163a); 
+  position: relative;
+  width: 100%;
+  margin: 0.5rem auto;
+  }
+  
+  .hover-border::after{ content:'';
+  width: 0%;
+  height: 10px; 
+  background: linear-gradient(to right,  #df642c, #EA8859); 
+  position: absolute;
+  bottom: 0%;left: 50%;
+  transition: all 700ms ease;
+  }
+  
+  .hover-border:hover::after{
+      left: 0%;
+      width: 100%;
+  }
+  
+  .hover-border a{
+    color: #A1FFCE;
+    text-decoration: none;
+    display: block;
+  }

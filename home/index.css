@@ -1,0 +1,149 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #243B55, #141E30, #243B55);
+    background: linear-gradient(to right, #243B55, #141E30, #243B55); 
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 90%;
+    margin: .5rem auto;
+    border: inset 1px black;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #DBDBDB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.active {
+    background-color:springgreen;
+    color: #546A7B;
+  }
+
+  .topnav i{
+    color: springgreen;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+
+.topnav a {
+    line-height: 1.8rem;
+    padding: .5rem .8rem;
+}
+
+.topnav a:hover {
+    color: #546A7B;
+    background-color: #DBDBDB
+}
+
+.wrapper {
+    background-color: #DBDBDB;
+    margin: 0 auto;
+    width: 80%;
+ 
+}
+
+.menu h2 {
+    color:#546A7B;
+    padding-top: 0;
+    font-size: 2.1rem;
+    border-bottom: 2px solid springgreen; 
+    padding-bottom: .5rem;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu a {
+    color: #546A7B;
+    text-decoration: none;
+    display:block;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+}
+.menu a:hover {
+    color: #00FA9A; 
+}
+.menu {
+    height: 500px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-flow: row nowrap;
+    background-image:url(laptop.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #546A7B;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.menu-box {
+    margin: 6rem;
+    flex-basis: 48%;
+    background-color: #F0EBDF;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background: #DBDBDB; 
+    background: -webkit-linear-gradient(to top, #EAEAEA, #DBDBDB); 
+    background: linear-gradient(to top, #EAEAEA, #DBDBDB); 
+}
+
+.pagefooter{
+    width: 80%;
+    margin: .5rem auto;
+    background: #DBDBDB; 
+    background: -webkit-linear-gradient(to top, #EAEAEA, #DBDBDB); 
+    background: linear-gradient(to top, #EAEAEA, #DBDBDB); 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border: 1px solid #67E0BF;
+    
+}
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .1rem;
+    float: left;
+    clear: both;
+    padding: 0.5rem;
+    color: #546A7B;
+    margin: .5rem 3rem .5rem 1rem;
+    line-height: 1.5rem;
+    border-right: 2px solid springgreen; 
+    padding-right: 4rem;
+    font-size: 1.05rem;
+}
+
+.pagefooter img{
+    border: 1px groove #67E0BF;
+    float: right;
+    clear: both;
+    margin: .5rem 1rem .5rem 3rem;
+}
+
+.copyright a{
+    color: steelblue;
+}
+.copyright a:hover{
+    color: #00FF7F
+}
+
+.copyright a:visited{
+    color: steelblue;
+}
+.copyright a:visited:hover{
+    color: #00FF7F;
+}
