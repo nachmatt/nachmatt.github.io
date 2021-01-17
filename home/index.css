@@ -22,6 +22,8 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    line-height: 1.8rem;
+    padding: .5rem .8rem;
   }
   
   .topnav a.active {
@@ -35,11 +37,6 @@ body{
     margin-right: 1rem;
     margin-top: 0.5rem;
   }
-
-.topnav a {
-    line-height: 1.8rem;
-    padding: .5rem .8rem;
-}
 
 .topnav a:hover {
     color: #546A7B;
@@ -146,4 +143,12 @@ body{
 }
 .copyright a:visited:hover{
     color: #00FF7F;
+}
+
+img{
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1:1);
 }

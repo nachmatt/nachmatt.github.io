@@ -1,0 +1,44 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, #68dfdd , #E684AE); 
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 10rem;
+    border: 1px solid rgba(0,0,0,.5);;
+    border-radius: 30px;
+    width: 10%;
+}
+
+li:hover{
+    transition: 0.5s ease-in-out;
+    color:  #68dfdd;
+    background-color: #3A6073;
+    border: 1px solid #3A6073;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em ;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.1em;
+
+}
